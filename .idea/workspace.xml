@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393bad8f-c6e2-4a08-8b59-d56bbcc5dce8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/features/CustomerCanSearchForProductOfTheirChoice.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,5 +67,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587918053402" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1588012195755">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588012195755" />
+    <state x="65" y="68" key="new project wizard" timestamp="1587937795272">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="68" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587937795272" />
   </component>
 </project>
