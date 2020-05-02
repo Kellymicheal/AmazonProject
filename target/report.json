@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-02T00:11:12.413Z",
+        "line": 16,
+        "name": "Customer Can Search For Product Of Their Choice",
+        "description": "",
+        "id": "search-for-products-for-sale;customer-can-search-for-product-of-their-choice;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25291000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to amazon homepage",
+            "match": {
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.i_navigate_to_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my \"samsung tv\" on search textbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsung tv\"",
+                  "offset": 11
+                }
+              ],
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.i_enter_my_on_search_textbox(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on searchbutton",
+            "match": {
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.click_on_searchbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "New \"\u003cproduct\u003e\" detail is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cproduct\u003e\"",
+                  "offset": 4
+                }
+              ],
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.new_detail_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on product detail",
+            "match": {
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.i_click_on_product_detail()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-02T00:11:38.095Z",
+        "line": 31,
+        "name": "customer cannot search for product of their choice with missing value",
+        "description": "",
+        "id": "search-for-products-for-sale;customer-cannot-search-for-product-of-their-choice-with-missing-value;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8102000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I navigate to amazon homepage",
+            "match": {
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.i_navigate_to_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I left my \"\" detail emty",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 10
+                }
+              ],
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.i_left_my_detail_emty(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "click on sendbutton",
+            "match": {
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.click_on_sendbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "same page remain",
+            "match": {
+              "location": "co.uk.amazon.stepDefinations.ForSaleSearchSteps.same_page_remain()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search For Products For Sale",
+    "description": "  As a customer\n  I want the ability to search for product for sale\n  So that i can buy a product of my choice",
+    "id": "search-for-products-for-sale",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/amazon/features/CustomerCanSearchForProductOfTheirChoice.feature",
+    "tags": []
+  }
+]

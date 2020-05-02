@@ -1,27 +1,30 @@
-Feature: Search Products For Sale
+Feature: Search For Products For Sale
   As a customer
   I want the ability to search for product for sale
   So that i can buy a product of my choice
 
-Scenario Outline: customer can search for product of their choice
-   Given i navigate to amazon homepage
-   When i enter my "<Product>" name
-   And click on searchbutton
-   Then new "<product>" is displayed
-   And i click on product detail
+ Scenario Outline: Customer Can Search For Product Of Their Choice
+   Given I navigate to amazon homepage
+   When I enter my "<Product>" on search textbox
+   And Click on searchbutton
+   Then New "<product>" detail is displayed
+   And I click on product detail
 
   Examples:
-  |Product   |
-  |samsung tv|
-  | Test Book|
-  | Bicycle  |
+
+            |Product   |
+            |samsung tv|
+           # | Test Book|
+            # | Bicycle  |
+
+
 
   Scenario Outline: customer cannot search for product of their choice with missing value
-  Given i navigate to amazon homepage
-  When i enter my "<Product>" name
-  And click on searchbutton
-  Then new "<product>" is displayed
-  And i click on product detail
+  Given I navigate to amazon homepage
+  When I left my "<Product>" detail emty
+  And click on sendbutton
+  Then same page remain
+
 
   Examples:
     |Product   |
