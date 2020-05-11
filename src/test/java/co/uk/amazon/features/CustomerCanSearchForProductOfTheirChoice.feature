@@ -7,15 +7,16 @@ Feature: Search For Products For Sale
    Given I navigate to amazon homepage
    When I enter my "<Product>" on search textbox
    And Click on searchbutton
-   Then New "<product>" detail is displayed
-   And I click on product detail
+   Then New "<Product>" detail is displayed
+   And I click on any of the result to view more detail
 
   Examples:
 
             |Product   |
-            |samsung tv|
+            |Samsung TV|
            # | Test Book|
-            # | Bicycle  |
+
+            #| Bicycle  |
 
 
 

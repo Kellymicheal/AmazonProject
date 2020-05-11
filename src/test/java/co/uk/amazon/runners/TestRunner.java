@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/java/co/uk/amazon/features"}
         ,plugin = {"pretty", "json:target/report.json",
-                "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}
-        ,glue = {"co/uk/amazon/stepDefinations"}
+        "de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"}
+        ,glue = {"co/uk/amazon/hooks", "co/uk/amazon/stepDefinations"}
         ,tags = {"not @ignore"}
 
 )

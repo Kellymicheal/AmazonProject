@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="393bad8f-c6e2-4a08-8b59-d56bbcc5dce8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/runners/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/stepDefinations/ForSaleSearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/common/BrowserClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/common/driverLib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/hooks/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/pages/Homepage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/pages/ProductDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/pages/SearchResultPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/amazon/features/CustomerCanSearchForProductOfTheirChoice.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/features/CustomerCanSearchForProductOfTheirChoice.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/amazon/runners/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/amazon/stepDefinations/ForSaleSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/amazon/stepDefinations/ForSaleSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_4187065217.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_4187065217.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/amazon/runners/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/amazon/runners/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/amazon/stepDefinations/ForSaleSearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/amazon/stepDefinations/ForSaleSearchSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,22 +97,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="36" key="GridCell.Tab.0.bottom" timestamp="1588378267408">
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1589203101652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="36" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588378267408" />
-    <state width="1323" height="36" key="GridCell.Tab.0.center" timestamp="1588378267408">
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589203101652" />
+    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1589203101652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="36" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588378267408" />
-    <state width="1323" height="36" key="GridCell.Tab.0.left" timestamp="1588378267408">
+    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589203101652" />
+    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1589203101621">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="36" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588378267408" />
-    <state width="1323" height="36" key="GridCell.Tab.0.right" timestamp="1588378267408">
+    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589203101621" />
+    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1589203101652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="36" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588378267408" />
+    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589203101652" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1588012195755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
